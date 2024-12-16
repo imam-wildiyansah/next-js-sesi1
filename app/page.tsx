@@ -1,0 +1,10 @@
+export default function Home() {
+  return (
+    <div>
+      <h1 className="text-2xl font-bold">Home Page</h1>
+      <a href="http://localhost:3000/about" className="text-blue-500 underlane">
+        About Page
+      </a>
+    </div>
+  );
+}
